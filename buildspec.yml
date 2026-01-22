@@ -1,4 +1,8 @@
 version: 0.2
+env:
+  variables:
+    ECR_REPO: "851725454959.dkr.ecr.us-east-1.amazonaws.com/wordpress"
+    AWS_DEFAULT_REGION: "us-east-1"
 
 phases:
   pre_build:
